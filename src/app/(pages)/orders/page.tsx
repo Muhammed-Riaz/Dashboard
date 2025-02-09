@@ -68,7 +68,7 @@ export default function OrdersPage() {
   };
 
   return (
-    <div className="flex max-w-screen-2xl mx-auto">
+    <div className="sm:flex block max-w-screen-2xl mx-auto">
     <div className="w-64">
     <Simple/>
   </div>
@@ -107,10 +107,7 @@ export default function OrdersPage() {
                   <span className="text-sm text-gray-600">Amount</span>
                   <span className="text-sm font-medium">${order.totalAmount.toFixed(2)}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-sm text-gray-600">Email</span>
-                  <span className="text-sm font-medium">{order.email}</span>
-                </div>
+             
               </div>
               <button
                 className="w-full mt-2 py-1 text-sm text-blue-500 hover:underline"

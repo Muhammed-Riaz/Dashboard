@@ -89,7 +89,7 @@ export default function ProductsPage() {
   };
 
   return (
-    <div className="flex max-w-screen-2xl mx-auto">
+    <div className="sm:flex block max-w-screen-2xl mx-auto">
     <div className="w-64">
     <Simple />
   </div>
